@@ -1,0 +1,88 @@
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Welcome to the Jungle
+ball_velocities:45,10 -45,10 -30,10 30,10
+  
+background:image(background_images/us.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/jungle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:30
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+--zzzzzzzzzzz---
+---lllllllll----
+----zzzzzzz-----
+----lllllll-----
+-----zzzzz------
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name: Retro Arrows
+ball_velocities:-45,10 45,10 135,10
+background:color(RGB(142,0,0))
+paddle_speed:10
+paddle_width:250
+block_definitions:definitions/arrows_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:30
+START_BLOCKS
+-
+-
+------ggg--
+-----gg-gg-----
+---rrrgbgg----
+----rrgggg-----
+------ggg---g--
+------ggg--gg--
+-----gggggggg--
+-----gg-ggggg--
+---bbggg--ggg--
+---bbbggggggb-
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name: Final Four (V2)
+ball_velocities:45,10
+background:image(background_images/clouds.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:80
+START_BLOCKS
+-
+-
+GGGGGGGGGGGGGGG
+-rrrrrrrrrrrrr
+--yyyyyyyyyyy
+---gggggggggg
+--wwwwwwwwww
+-pppppppppppp
+ccccccccccccccc
+
+END_BLOCKS
+END_LEVEL
